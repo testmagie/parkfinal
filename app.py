@@ -266,4 +266,4 @@ def admin_get():
     
 if __name__ == '__main__':
     init_db()  # Initialize database
-    app.run(debug=True)
+    app.run(debug=False,host='0.0.0.0')
