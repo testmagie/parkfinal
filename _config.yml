@@ -3,7 +3,7 @@ description: A simple description of my site
 baseurl: "/template" # Change to the subdirectory where `index.html` is
 url: "https://testmagie.github.io/parkfinal" # Your GitHub Pages URL
 theme: jekyll-theme-slate # Or another theme of your choice
-
+include: ["static"]
 sass:
   sass_dir: "static/css"
 
